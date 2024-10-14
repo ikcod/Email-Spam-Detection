@@ -7,44 +7,44 @@ The project aims to tackle the limitations of existing spam detection systems by
 
 **Features**
 
-Text Preprocessing: Tokenization, stop-word removal, stemming, and feature extraction using TF-IDF.
+*Text Preprocessing*: Tokenization, stop-word removal, stemming, and feature extraction using TF-IDF.
 
-Multiple Classifiers: Implementation of SVM, Decision Tree, Random Forest, Naive Bayes, AdaBoost, K-Means Clustering, and Agglomerative Clustering for spam detection.
+*Multiple Classifiers*: Implementation of SVM, Decision Tree, Random Forest, Naive Bayes, AdaBoost, K-Means Clustering, and Agglomerative Clustering for spam detection.
 
-Model Comparison: Comprehensive comparison of different algorithms to determine the most effective spam classifier.
+*Model Comparison*: Comprehensive comparison of different algorithms to determine the most effective spam classifier.
 
-Hyperparameter Tuning: Optimization of model performance through hyperparameter tuning.
+*Hyperparameter Tuning*: Optimization of model performance through hyperparameter tuning.
 
-Advanced Evaluation: Metrics like precision, recall, F1 score, and confusion matrices for robust model performance evaluation.
+*Advanced Evaluation*: Metrics like precision, recall, F1 score, and confusion matrices for robust model performance evaluation.
 
 
 **Algorithms Used**
 
-Support Vector Machine (SVM): A linear classifier effective for high-dimensional text data.
+1. *Support Vector Machine (SVM)*: A linear classifier effective for high-dimensional text data.
 
-Random Forest: An ensemble method that builds multiple decision trees for classification, improving accuracy and reducing overfitting.
+2. *Random Forest*: An ensemble method that builds multiple decision trees for classification, improving accuracy and reducing overfitting.
 
-Decision Tree: A simple, interpretable model used as a baseline classifier.
+3. *Decision Tree*: A simple, interpretable model used as a baseline classifier.
 
-AdaBoost: An ensemble technique that enhances the performance of weak classifiers by focusing on misclassified samples.
+4. *AdaBoost*: An ensemble technique that enhances the performance of weak classifiers by focusing on misclassified samples.
 
-Naive Bayes: A probabilistic classifier based on Bayes' theorem, particularly effective for text-based data.
+5. *Naive Bayes*: A probabilistic classifier based on Bayes' theorem, particularly effective for text-based data.
 
-K-Means Clustering: An unsupervised learning algorithm used to group emails into clusters for exploratory analysis.
+6. *K-Means Clustering*: An unsupervised learning algorithm used to group emails into clusters for exploratory analysis.
 
-Agglomerative Clustering: A hierarchical clustering method useful for identifying nested structures in data.
+7. *Agglomerative Clustering*: A hierarchical clustering method useful for identifying nested structures in data.
 
 **Evaluation Metrics**
 
 The performance of each algorithm is evaluated based on the following metrics:
 
-Accuracy: The overall correctness of the model.
+*Accuracy*: The overall correctness of the model.
 
-Precision: The proportion of correctly identified spam emails out of all emails predicted as spam.
+*Precision*: The proportion of correctly identified spam emails out of all emails predicted as spam.
 
-Recall: The proportion of correctly identified spam emails out of all actual spam emails.
+*Recall*: The proportion of correctly identified spam emails out of all actual spam emails.
 
-F1 Score: The harmonic mean of precision and recall, balancing the trade-off between the two.
+*F1 Score*: The harmonic mean of precision and recall, balancing the trade-off between the two.
 
 **Results**
 
