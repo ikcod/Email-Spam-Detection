@@ -1,5 +1,5 @@
 # Email Spam Detection System
-Project Overview
+**Project Overview**
 This project focuses on developing an email spam detection system using various machine learning algorithms. The system classifies emails as either "spam" or "ham" (legitimate) based on textual features extracted from email content. The system leverages Natural Language Processing (NLP) techniques and evaluates multiple machine learning models such as Support Vector Machines (SVM), Random Forest, Decision Tree, Naive Bayes, AdaBoost, and Clustering methods to identify the most effective classifier.
 
 The project aims to tackle the limitations of existing spam detection systems by improving accuracy, reducing false positives, and enhancing scalability. The models are evaluated using precision, recall, F1 score, and accuracy metrics.
